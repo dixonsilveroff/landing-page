@@ -1,0 +1,163 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', serif;
+   transition: all ease 200ms;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover, button:hover {
+   opacity: 70%;
+   cursor: pointer;
+}
+
+:root {
+   --color_one: #1f2937;
+   --color_two: #f9faf8;
+   --color_three: #e5e7eb;
+   --color_btn: #3882f6;
+}
+
+/* TYPOGRAPHY */
+
+header, footer, .section_one {
+   background-color: var(--color_one);
+}
+
+.hero-text {
+   font-size: 48px;
+   color: var(--color_two);
+   font-weight: 900;
+}
+
+.hero-subtext, header a {
+   font-size: 18px;
+   color: var(--color_three);
+}
+
+.header-logo {
+   font-size: 24px;
+   color: var(--color_two);
+}
+
+button, .section_four_banner {
+   background-color: var(--color_btn);
+   color: var(--color_two);
+}
+
+.section-two-text {
+   font-size: 36px;
+   color: var(--color_one);
+   font-weight: 900;
+}
+
+.section_three_article1 {
+   font-size: 36px;
+   font-weight: 300;
+   font-style: italic;
+   color: var(--color_one);
+}
+
+.section_three {
+   background-color: var(--color_three);
+}
+
+footer {
+   color: var(--color_three);
+}
+
+/* LAYOUT */
+button {
+   max-width: 8rem;
+   border: 1.5px solid var(--color_two);
+   padding: .25rem 2rem;
+   border-radius: 10px;
+}
+
+section, footer {
+   padding: 5rem 10rem;
+   min-height: 5rem;
+   margin-inline: auto;
+}
+
+.section_one {
+   display: flex;
+   justify-content: space-between;
+   text-align: left;
+   gap: 30px;
+}
+
+.section_one_article {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   max-width: 680px;
+}
+
+img.hero-image {
+   width: 520px;
+}
+
+figure img {
+   width: 300px;
+}
+
+header.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 10rem;
+}
+
+nav.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 40px;
+}
+
+.section-two-text {
+   text-align: center;
+   margin-bottom: 3rem;
+}
+
+.section_two > div {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 10px;
+}
+
+figure {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   width: 280px;
+}
+
+.section_three_article2 {
+   margin-top: .5rem;
+   text-align: right;
+}
+
+.section_three_article1 {
+   text-align: center;
+}
+
+.section_four_banner {
+   padding: 3rem 8rem;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+footer {
+   text-align: center;
+}
